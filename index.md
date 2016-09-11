@@ -16,6 +16,7 @@ knit        : slidify::knit2slides
 navbar:
  title: Statistics Lab by Mujahed
  items:
+ body {background-color: powderblue
   #- {iten: Home, href: index}
   #- {item: "CPC Analytics", href: 'http://www.cpc-analytics.com/'}
 --- ds:noborder
@@ -33,11 +34,8 @@ navbar:
 <br>
 [Md Mujahedul Islam](https://de.linkedin.com/in/md-mujahedul-islam-4796583b) </small>
 
---- #rbi0
 
-## Let's start!
 
-<small> In the next slides, please press the **down** key to continue to a description of the topic. Press the <b>ESC</b> key to view a screenshot of the entire presentation </small>
 
 --- &vertical ds:noborder
 
@@ -49,9 +47,8 @@ navbar:
 
 <table cellpadding="0" cellspacing="5" border="0">
 
-	<td><small><b> Information: </b></small></td>
 	<td>  </td>
-	<td> <small> Some administrative and important information:
+	<td> <small> <b> Some administrative and important information:<b>
     <ul style="list-style-type:square">
     
     </li>
@@ -98,6 +95,11 @@ navbar:
 </small></td>
 </tr>
 </table>
+
+--- &vertical
+
+## Let's start!
+
 
 --- &vertical
 
@@ -168,7 +170,7 @@ navbar:
 
 ***
 
-#### Revision: Let's test ourselves!
+### Revision: Let's test ourselves!
 
 **Discuss with a partner :-)**
 
@@ -177,18 +179,18 @@ navbar:
 1. What is *validity*?
 
 2. Discuss the following measures in terms of *validity* and *reliability*.
-    - GDP as a measure of quality of life in a country
-    - Total tax revenue relative to GDP as measure of tax intake of countries
+  - GDP as a measure of quality of life in a country
+  - Total tax revenue relative to GDP as measure of tax intake of countries
     
     
 3. Propose a measurement for a person's political knowledge (think of a telephone survey).
 
 4. Identify the level of measurement of the following variables:
-    - GDP
-    - Trade/GDP
-    - Political system
-    - Freedom House scores
-    - Political Parties
+  - GDP
+  - Trade/GDP
+  - Political system
+  - Freedom House scores
+  - Political Parties
     
 </small>  
 
@@ -199,13 +201,13 @@ navbar:
 
 <small style="text-align:justify">
 
-1. You should have a questionnaire in your front (You can also download the file called *fun_exercise_1_levelofmeasurement* from Moodle.
+- You should have a questionnaire in your front (You can also download the file called *fun_exercise_1_levelofmeasurement* from Moodle.
 
-2. Please answer it and fill the data in Excel (You will find the Excel format in moodle named *fun_exercise_1_data_excel format*).
+- Please answer it and fill the data in Excel (You will find the Excel format in moodle named *fun_exercise_1_data_excel format*).
 
-3. Now send data that you just filled in Excel to my email: mujahed.asia@gmail.com
+- Now send data that you just filled in Excel to my email: mujahed.asia@gmail.com
 
-4. Now download data named **ourdata.dta** in stata format (.dta) from moodle which I have just converted from Excel to stata format.
+- Now download data named **ourdata.dta** in stata format (.dta) from moodle which I have just converted from Excel to stata format.
 
 </small> 
 
@@ -217,11 +219,11 @@ navbar:
 
 Now please open **ourdata.dta** and familiarise ourselves with the data by trying to answer the following questions:
 
-1. How many observations does the dataset contain? **hint:** *count*
+  1) How many observations does the dataset contain? **hint:** *count*
 
-2. How many variables does the dataset contain? **hint:** *look above at the right-hand side of your opened STATA*
+  2) How many variables does the dataset contain? **hint:** *look above at the right-hand side of your opened STATA*
 
-3. How can you *browse* data so that you can see what is in it? **hint:** *browse*
+  3) How can you *browse* data so that you can see what is in it? **hint:** *browse*
 
 </small>
 
@@ -231,13 +233,13 @@ Now please open **ourdata.dta** and familiarise ourselves with the data by tryin
 
 <small style="text-align:justify">
 
-1. What do the variables **sex** and **continent** measure? **hint:** *codebook*
+1) What do the variables **sex** and **continent** measure? **hint:** *codebook*
 
-2. What do the variables **satis_study** and **feelings** measure? **hint:** *codebook*
+2) What do the variables **satis_study** and **feelings** measure? **hint:** *codebook*
 
-3. What do the variables **age** and **height** measure? **hint:** *codebook/summerize/sum*
+3) What do the variables **age** and **height** measure? **hint:** *codebook/summerize/sum*
 
-4. What is the average **age** and **height** of your colleagues in this lab? **hint:** *summerise/sum*
+4) What is the average **age** and **height** of your colleagues in this lab? **hint:** *summerise/sum*
 
 </small>
 
@@ -247,4 +249,4 @@ Now please open **ourdata.dta** and familiarise ourselves with the data by tryin
 
 <br />
 <br />
-<img src="assets/img/fun.PNG" style="border-style: none; height:350px;"/>
+<img src="assets/img/fun.png" style="border-style: none; height:350px;"/>
